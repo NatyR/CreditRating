@@ -15,9 +15,6 @@ namespace Card.API.Services
             rabbitService = new RabbitService(_configuration);
         }
 
-        // Method executed from the Card Worker execution.
-        // Card Number Generation
-        // CVV generation
         public async Task<bool> ProcessMessage(string message)
         {
             try
