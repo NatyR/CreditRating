@@ -16,7 +16,7 @@ namespace Customer.API.Controllers
         }
 
         /// <summary>
-        /// Endpoint responsible for customer registration. 
+        /// Endpoint responsavel por cadastrar um cliente
         /// </summary>
         [HttpPost("create")]
         [ProducesResponseType(typeof(string), 200)]
