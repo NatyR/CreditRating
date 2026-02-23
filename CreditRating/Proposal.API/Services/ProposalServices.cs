@@ -92,7 +92,7 @@ namespace Proposal.API.Services
 
         private decimal CalculateCreditLimit(Customer customer)
         {
-            // Credit limit calculation based on 30% of the customer's income as credit limit
+            // Libera um valor de credito de 30% do salario
             decimal creditLimit = customer.Salary * 0.3m;
 
             return Math.Round(creditLimit, 2);
