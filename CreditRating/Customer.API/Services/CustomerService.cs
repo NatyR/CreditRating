@@ -21,8 +21,6 @@ namespace Customer.API.Services
             return true;
         }
 
-        // Method executed from the Customer Worker execution.
-        // Return of proposal or card
         public async Task<bool> ProcessMessage(string origin, string message)
         {
             try
